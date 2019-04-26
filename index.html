@@ -18,42 +18,70 @@
 
 <body>
     <div class="jumbotron">
-        <h1 class="display-4 position-center">New York Times Search</h1>
+        <div class="row">
+
+            <h1 class="display-4 position-center">New York Times Search</h1>
+        </div>
     </div>
     <div class="container">
-        <div class="container">
-            <h3>Search parameters</h3>
+        <div class="container" class="headers">
+            <div>
+                <div class="row">
+                    <i class="far fa-newspaper"></i>
+                    <p>Search parameters</p>
+                </div>
+
+            </div>
         </div>
         <form>
             <div class="form-group">
                 <label for="search-term">Search Term: </label>
-                <input type="search" class="form-control" id="search-term" aria-describedby="emailHelp"
+                <input type="search" class="form-control" id="search-term" aria-describedby="searchTerm"
                     placeholder="Enter search">
             </div>
+          
             <div class="form-group">
-                <label for="records">Number of Recored to Retrieve:</label>
-                <input type="password" class="form-control" id="records" placeholder="records">
+                <label for="records">Number of Records to Retrieve:</label>
+                <select class="form-control" id="records" placeholder="records">
+                    <option>5</option>
+                    <option>10</option>
+                </select>
             </div>
+
             <div class="form-group">
                 <label for="start-year">Start Year(Optional):</label>
-                <input type="search" class="form-control" id="start-year" aria-describedby="emailHelp"
+                <input type="search" class="form-control" id="start-year" aria-describedby="startYear"
                     placeholder="Enter year">
             </div>
+
+
             <div class="form-group">
                 <label for="end-year">End Year(Optional):</label>
                 <input type="password" class="form-control" id="end-year" placeholder="End Year">
             </div>
             <div>
+<<<<<<< HEAD
                 <button type="submit" id="submit" class="btn btn-primary">Submit</button>
                 <button type="clear" class="btn btn-primary">clear</button>
+=======
+                <i class="fas fa-search"></i>
+                <button type="submit" id="submit" class="btn btn-primary">Search</button>
+                <i class="fas fa-eraser"></i>
+                <button type="clear" id="clear" class="btn btn-primary">Clear Results</button>
+>>>>>>> 92dd80e983447313977a705f226b661c8ce4fff3
             </div>
         </form>
 
+        <div class="container">
+            <div class="row">
+                <i class="far fa-newspaper"></i> <br>
+                <p>Top Articles</p>
 
+            </div>
+        </div>
         <div class="container">
 
             <div id="results">Results:</div>
-
         </div>
 
 

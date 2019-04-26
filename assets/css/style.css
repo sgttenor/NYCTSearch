@@ -1,6 +1,6 @@
-.jumbotron, h1 { 
-    text-align: center;
-    background: darkblue;
+.jumbotron, h1  { 
+    text-align: center !important;
+    background: #20325a;
     color: white !important;
     font-weight: bold !important;
     font-size: 40px;
@@ -19,4 +19,8 @@
    background-color: #ffffff;
    border-color: #ffffff;
    
+}
+
+.headers {
+    background: #f8f8f8;
 }
