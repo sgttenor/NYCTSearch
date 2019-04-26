@@ -1,16 +1,19 @@
 .jumbotron, h1  { 
-    text-align: center !important;
+    text-align: center;
     background: #20325a;
     color: white !important;
     font-weight: bold !important;
     font-size: 40px;
     font-family: sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
 
 }
 
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
+    
     
 }
 
@@ -21,6 +24,4 @@
    
 }
 
-.headers {
-    background: #f8f8f8;
-}
+
