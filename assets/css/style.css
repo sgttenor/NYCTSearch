@@ -2,7 +2,21 @@
     text-align: center;
     background: darkblue;
     color: white !important;
-    font-weight: 500;
+    font-weight: bold !important;
     font-size: 40px;
+    font-family: sans-serif;
 
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.btn-primary {
+   color: black;
+   background-color: #ffffff;
+   border-color: #ffffff;
+   
 }
